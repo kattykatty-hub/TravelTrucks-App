@@ -1,0 +1,29 @@
+.tabsList {
+  display: flex;
+  gap: 40px;
+  border-bottom: 1px solid var(--color-gray-light);
+  margin-bottom: 44px;
+}
+
+.tabsButton {
+  cursor: pointer;
+  padding: 8px 16px;
+  border: none;
+  background: none;
+  padding-bottom: 24px;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+}
+
+.tabsButtonActive {
+  border-bottom-color: var(--color-button);
+}
+
+.tabsContent {
+  display: flex;
+  gap: 40px;
+}
+
+.tabsContent > div {
+  width: calc(50% - 20px);
+}

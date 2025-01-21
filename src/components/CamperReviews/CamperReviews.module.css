@@ -1,0 +1,58 @@
+.camperReviews {
+}
+
+.camperReviews > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.camperReviews > ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.reviewerInitial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--color-badges);
+  color: var(--color-button);
+}
+
+.reviewerInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.reviewerRating {
+  display: flex;
+  gap: 4px;
+}
+
+.reviewerRating li {
+  width: 16px;
+}
+
+.reviewerRating svg {
+  width: 16px;
+  height: 16px;
+}
+
+.camperReviews > ul li p {
+  color: var(--color-text);
+}

@@ -1,0 +1,42 @@
+.camperDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 60px;
+}
+
+.camperHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.camperInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.camperGallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.camperGallery li {
+  max-width: 292px;
+  height: 312px;
+}
+
+.camperGallery li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.camperDescription {
+  color: var(--color-text);
+}

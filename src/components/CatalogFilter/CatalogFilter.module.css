@@ -1,0 +1,112 @@
+.catalogFilter {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 360px;
+}
+
+.catalogFilterLocation {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.catalogFilterLocation label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+.catalogFilterLocationInput {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid var(--color-gray-light);
+  border-radius: 12px;
+  background-color: var(--color-inputs);
+}
+
+.catalogFilterLocationInput svg {
+  width: 24px;
+  height: 24px;
+}
+
+.catalogFilterLocationInput input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+.catalogFilterLocationInput input::placeholder {
+  color: var(--color-gray);
+}
+
+.catalogFilterLocationInput input:focus {
+  outline: none;
+}
+
+.catalogFilters {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.catalogFilters > h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+.catalogFilterOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.catalogFilterOptions h3 {
+  border-bottom: 1px solid var(--color-gray-light);
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.filtersList {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.catalogFilterOption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 0 18px;
+  border: 1px solid var(--color-gray-light);
+  border-radius: 12px;
+  width: 112px;
+  height: 96px;
+  text-align: center;
+}
+
+.catalogFilterOption:hover {
+  border-color: var(--color-gray);
+}
+
+.catalogFilterOptionActive {
+  border-color: var(--color-button);
+}
+
+.catalogFilterOptionActive:hover {
+  border-color: var(--color-button-hover);
+}
+
+.catalogFilterOption svg {
+  width: 32px;
+  height: 32px;
+}

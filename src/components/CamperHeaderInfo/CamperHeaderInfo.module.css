@@ -1,0 +1,17 @@
+.camperHeaderInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.camperHeaderInfo div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.camperHeaderInfo svg {
+  width: 16px;
+  height: 16px;
+}

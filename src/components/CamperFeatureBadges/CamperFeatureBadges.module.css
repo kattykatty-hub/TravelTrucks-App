@@ -1,0 +1,21 @@
+.camperFeatureBadges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.camperFeatureBadge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border-radius: 50px;
+  border: 1px solid var(--color-badges);
+  background-color: var(--color-badges);
+}
+
+.camperFeatureBadge svg {
+  width: 20px;
+  height: 20px;
+}
